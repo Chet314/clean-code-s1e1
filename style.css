@@ -12,11 +12,11 @@ body {
   text-align: right;
 }
 
-.add-items img {
+.add-items__image {
   width: 100%;
 }
 
-.add-items .more-info {
+.add-items__more-info {
   font-family: fantasy, cursive;
 }
 
@@ -147,17 +147,17 @@ li > input[type="text"] {
   width: 226px;
 }
 
-li > button.delete:hover {
+li > .section__button-delete:hover {
   color: #cf2323;
 }
 
-button.delete img {
+.section__button-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.section__button-delete img:hover {
   transform: rotateZ(0);
 }
 
@@ -173,11 +173,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul .edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul .edit-mode label {
   display: none;
 }
